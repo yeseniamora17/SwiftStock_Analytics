@@ -1,0 +1,8 @@
+# macOS system files
+.DS_Store
+
+# SQLTools session files
+*.session.sql
+
+# VS Code settings (optional - remove if you want to share settings)
+.vscode/
