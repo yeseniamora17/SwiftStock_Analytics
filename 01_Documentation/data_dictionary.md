@@ -1,7 +1,7 @@
 # SwiftStock Logistics — Data Dictionary
 
 **Version:** 1.0  
-**Last Updated:** December 2024  
+**Last Updated:** December 2025  
 **Owner:** Business Intelligence Team  
 **Classification:** Internal Use Only
 
@@ -610,8 +610,8 @@ These tables contain foundational data that other tables reference.
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | Dec 2024 | BI Team | Initial creation |
+| 1.0 | Dec 2025 | BI Team | Initial creation |
 
 ---
 
-*This document is maintained by the Business Intelligence team. For questions or corrections, contact bi-team@swiftstock.com*
+*This document is maintained by the Business Intelligence team.
