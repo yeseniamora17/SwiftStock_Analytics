@@ -1,8 +1,7 @@
 # SwiftStock Logistics — Business Glossary
 
 **Version:** 1.0  
-**Last Updated:** December 2024  
-**Owner:** Business Intelligence Team
+**Last Updated:** December 2024
 
 ---
 
@@ -193,5 +192,3 @@ Physical distribution center for storage and fulfillment.
 Software managing warehouse operations (Manhattan Associates).
 
 ---
-
-*Maintained by the Business Intelligence team. Contact: bi-team@swiftstock.com*
