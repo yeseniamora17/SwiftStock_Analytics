@@ -17,11 +17,11 @@ For each significant decision, document:
 
 | ID | Date | Decision | Rationale | Impact |
 |----|------|----------|-----------|--------|
-| D-001 | 2025-03-06 | Use Databricks over local PostgreSQL | Enterprise-standard platform; better for portfolio; free Community Edition available | Steeper learning curve but more impressive to employers |
-| D-002 | 2025-03-06 | Use Kanban over Scrum | Analytics work is continuous flow with ad-hoc requests; Kanban handles interruptions better | No sprint ceremonies; pull work when capacity opens |
-| D-003 | 2025-03-06 | Track project in Jira | Industry-standard tool; demonstrates PM skills | Adds overhead but proves familiarity with enterprise tools |
-| D-004 | 2025-03-06 | Defer Tableau dashboards to future phase | Need to learn Tableau first; focus on SQL and analysis skills now | Keeps scope manageable; dashboards will come later |
-| D-005 | 2025-03-06 | Agile with lean documentation approach | Pure Agile too light for portfolio; pure Waterfall too heavy | Document enough to communicate clearly, not more |
+| D-001 | 2026-05-06 | Use Databricks over local PostgreSQL | Enterprise-standard platform; better for portfolio; free Community Edition available | Steeper learning curve but more impressive to employers |
+| D-002 | 2026-05-06 | Use Kanban over Scrum | Analytics work is continuous flow with ad-hoc requests; Kanban handles interruptions better | No sprint ceremonies; pull work when capacity opens |
+| D-003 | 2026-05-06 | Track project in Jira | Industry-standard tool; demonstrates PM skills | Adds overhead but proves familiarity with enterprise tools |
+| D-004 | 2026-05-06 | Defer Tableau dashboards to future phase | Need to learn Tableau first; focus on SQL and analysis skills now | Keeps scope manageable; dashboards will come later |
+| D-005 | 2026-05-06 | Agile with lean documentation approach | Pure Agile too light for portfolio; pure Waterfall too heavy | Document enough to communicate clearly, not more |
 
 ---
 
@@ -35,3 +35,4 @@ For each significant decision, document:
 | Date | Author | Change |
 |------|--------|--------|
 | 2026-05-06 | Yesenia Mora Acosta | Initial creation |
+| 2026-05-06 | Yesenia Mora Acosta | Updates |
