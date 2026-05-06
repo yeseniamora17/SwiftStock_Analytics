@@ -195,20 +195,7 @@
 2. **Ad-Hoc Request Overload** — 15 "quick questions" per week
 3. **Technical Debt** — 200 Tableau workbooks, half broken, no documentation
 
-### What Success Looks Like
 
-| Timeframe | Milestone |
-|-----------|-----------|
-| 30 days | Understand schema, run basic queries independently |
-| 60 days | Automate one weekly manual report |
-| 90 days | Deliver first stakeholder dashboard |
-| 6 months | Own operational reporting end-to-end |
-
-### Advice
-
-> "Don't try to boil the ocean. Pick one thing, do it really well, and build trust."
-
-> "Document everything. The last analyst didn't, and we're still recovering."
 
 ---
 
