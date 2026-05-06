@@ -23,27 +23,27 @@ SwiftStock Logistics operates 12 warehouses across North America and Europe, ser
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
-SwiftStock_Analytics/
-├── 01_Documentation/
-│   ├── project_charter.md      # Scope, objectives, success criteria
-│   ├── data_dictionary.md      # Complete schema documentation
-│   ├── stakeholder_interviews.md # Business requirements
-│   ├── data_lineage.md         # Data flow and source systems
-│   ├── business_glossary.md    # Key terms and definitions
-│   ├── decision_log.md         # Project decisions and rationale
-│   └── erd_diagram.png         # Entity relationship diagram
-├── 02_SQL_Queries/
-│   ├── data_quality/           # Data validation queries
-│   ├── exploratory/            # EDA queries
-│   └── business_deliverables/  # Final analysis queries
-├── 03_Analysis/
-│   ├── findings/               # Analysis results
-│   └── recommendations/        # Business recommendations
-├── 04_Deliverables/
-│   └── reports/                # Final reports
-└── README.md
+    SwiftStock_Analytics/
+    ├── 01_Documentation/
+    │   ├── project_charter.md
+    │   ├── data_dictionary.md
+    │   ├── stakeholder_interviews.md
+    │   ├── data_lineage.md
+    │   ├── business_glossary.md
+    │   ├── decision_log.md
+    │   └── erd_diagram.png
+    ├── 02_SQL_Queries/
+    │   ├── data_quality/
+    │   ├── exploratory/
+    │   └── business_deliverables/
+    ├── 03_Analysis/
+    │   ├── findings/
+    │   └── recommendations/
+    ├── 04_Deliverables/
+    │   └── reports/
+    └── README.md
 
 ---
 
