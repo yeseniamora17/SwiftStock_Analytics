@@ -93,6 +93,8 @@ Specific pain points identified:
 | Jira | Project tracking (Kanban) |
 | VS Code | Local editing |
 | Tableau | Dashboards (future phase) |
+| dbdiagram.io | Visual diagram |
+
 
 ---
 
@@ -123,3 +125,4 @@ Specific pain points identified:
 | Date | Author | Change |
 |------|--------|--------|
 | 2025-05-06 | Yesenia Mora Acosta | Initial creation |
+| 2025-05-06 | Yesenia Mora Acosta | Adding new tool |
