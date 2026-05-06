@@ -27,40 +27,7 @@ This document describes where SwiftStock's data originates, how it flows through
 
 ### High-Level Overview
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                         SOURCE SYSTEMS                                   │
-├─────────────────┬─────────────────┬─────────────────┬───────────────────┤
-│  Manhattan WMS  │   NetSuite ERP  │  Carrier APIs   │  Client Portals   │
-│  (Warehouse)    │   (Finance)     │  (Shipping)     │  (Orders)         │
-└────────┬────────┴────────┬────────┴────────┬────────┴─────────┬─────────┘
-         │                 │                 │                   │
-         ▼                 ▼                 ▼                   ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│                      INTEGRATION LAYER (Fivetran)                        │
-│                      - Scheduled extracts                                │
-│                      - Change data capture                               │
-│                      - API polling                                       │
-└─────────────────────────────────┬───────────────────────────────────────┘
-                                  │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│                      DATA WAREHOUSE (PostgreSQL)                         │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐                  │
-│  │   Raw       │───▶│  Staging    │───▶│  Analytics  │                  │
-│  │   Schema    │    │  Schema     │    │  Schema     │                  │
-│  │  (landing)  │    │  (cleaned)  │    │  (modeled)  │                  │
-│  └─────────────┘    └─────────────┘    └─────────────┘                  │
-└─────────────────────────────────┬───────────────────────────────────────┘
-                                  │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│                      CONSUMPTION LAYER                                   │
-├─────────────────┬─────────────────┬─────────────────────────────────────┤
-│    Tableau      │   Ad-hoc SQL    │   Scheduled Reports                 │
-│   Dashboards    │    Queries      │   (Email/Slack)                     │
-└─────────────────┴─────────────────┴─────────────────────────────────────┘
-```
+![Data Lineage Diagram](data_lineage_diagram.png)
 
 ---
 
