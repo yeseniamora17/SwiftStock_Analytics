@@ -2,7 +2,7 @@
 -- Task 3.1: Table Row Counts
 -- Phase 3: Data Exploration Log
 -- Author: Yesenia Mora Acosta
--- Date: 2025-03-XX
+-- Date: 2026-05-25
 -- Description: Verify data loaded correctly across all 13 tables
 -- ============================================================
 
